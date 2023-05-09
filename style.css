@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+/* importation  de la police google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  margin: 0;
+  font-family: Lato, sans-serif;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f3f8f7 49.91%,
+    #fff9f5 94.19%
+  );
+  overflow-x: hidden; /*cache la barre de défilement sur le bas */
+  color: #54575a;
+}
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 1379px; /*Réduit un peu la hauteur pour ne pas avoir de cadre en bas */
+  margin: auto;
+}
+
+.brand-img {
+  position: absolute;
+  width: 150px;
+
+  left: 170px;
+  top: 50.25px;
+}
+
+.title {
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 170px;
+  top: 236px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 68px;
+}
+
+.text {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 170px;
+  top: 403px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.app-store-btn {
+  position: absolute;
+  left: 170px;
+  top: 531px;
+}
+
+/*On cible l'image et on on insere sa taille dans la classe enfant*/
+.app-store-btn img {
+  width: 138.44px;
+  height: 46.28px;
+}
+
+.google-play-btn {
+  position: absolute;
+  left: 331.81px;
+  top: 531px;
+}
+
+/*On cible l'image et on on insere sa taille dans la classe enfant*/
+.google-play-btn img {
+  width: 156.19px;
+  height: 46.28px;
+}
+
+.main-image-container {
+  position: absolute;
+
+  left: 583.28px;
+  top: 229.73px;
+}
+
+.main-image-container img {
+  height: 411.15px;
+}
+
+.profile-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.orders-img {
+  position: absolute;
+  height: 470px; /*Augmenter de 44px pour estomper l'ombre*/
+  left: 479px;
+  right: 737px;
+  top: 913px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.home-img {
+  position: absolute;
+  height: 470px; /*Augmenter de 44px pour estomper l'ombre*/
+  left: 995px;
+  right: 221px;
+  top: 908px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.cart-img {
+  position: absolute;
+  height: 222px; /*Réduire la taille par 2*/
+  left: 170px;
+  right: 995px;
+  top: 1157px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.product-img {
+  position: absolute;
+  height: 222px; /*Réduire la taille par 2*/
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
