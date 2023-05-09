@@ -1,4 +1,5 @@
 # uiTelecom
+Go on main Branch to see the code of my Project and for watching the visual go to https://paulinecoudert.github.io/uiTelecom/.
 
 Project Proximus exercice of design cartouche
 
